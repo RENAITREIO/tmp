@@ -1,1 +1,1 @@
-# Public repo for competitions
+# public repo for competitions
