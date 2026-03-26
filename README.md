@@ -1,1 +1,1 @@
-# public repo for competitions
+# 比赛的一些笔记
