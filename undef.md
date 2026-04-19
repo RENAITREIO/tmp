@@ -29,10 +29,11 @@ dBm0的含义是相对于零TLP点的dBm值
 2. FSx 控制什么时候采样，8位编码随后装入缓冲器，并在下一个 FSx 脉冲处通过 Dx 移出
 3. 总编码延时约为 165 μs（发送滤波器引起）加 125 μs（编码延时引起），合计 290 μs
 ### Transmission Characteristics
-VCC = +5V ± 5%，VBB = -5V ± 5%，GNDA = 0 V，f = 1.02kHz，VIN = 0dBm0，发送输入放大器接成单位增益同相
+VCC = +5V ± 5%，VBB = -5V ± 5%，GNDA = 0 V，f = 1.02kHz，VIN = 0dBm0，发送输入放大器接成单位增益同相  
 $\text{t}_{MAX}$: 最大过载峰值电压, TP3057(3.14dBm0)为2.492Vpk
 ### ENCODING FORMAT at Dx OUTPUT
 `10101010` -> 2.492Vpk  
 `11010101`/`01010101` -> 0Vpk  
 `00101010` -> -2.492Vpk
+
 ![function](pic/alaw.svg)
