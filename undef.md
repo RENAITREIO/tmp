@@ -13,7 +13,7 @@
 dBm: $10\text{log}_{10} \frac{P}{1mW}$  
 dBm0的含义是相对于零TLP点的dBm值  
 
-![dBm](pic/dBm.jpg)
+![dBm](pic/dbm.jpg)
 
 ## manual
 ### transmit section
